@@ -30,9 +30,11 @@ C’est une séquence d’éléments sur laquelle on peut effectuer un groupe d’opérati
 `List<String> products2 =  orderList.stream().filter(o-> o.getType()==OrderType.SELL).sorted(Comparator.comparing(Order::getPrice)).map(Order::getProduct).collect(toList());`
 
 
-## Default methods
+## Static and Default methods
 
-Les méthodes définies dans l'interface et marquées avec le mot clé "default" sont appelées méthodes par défaut. Ces méthodes sont des méthodes non abstraites (implementés).
+Les méthodes définies dans l'interface sont marquées avec le mot clé "default", elles sont appelées des méthodes par défaut. Ces méthodes sont des méthodes non abstraites (implementés).
+
+On a le droit de creer aussi des methodes statique non abtraite utilisant le mot cle "static"
 
 ## Optional class
 
@@ -84,4 +86,8 @@ La réflexion peut être utilisée pour obtenir des informations sur :
 4. Attributs: getFields() est pour obtenir le nom des attributs publiques ou prives.
 <br/><br/>
 
-Check this link to understand [Java Reflection](https://www.journaldev.com/1789/java-reflection-example-tutorial)
+Check this link to understand [Java Reflection](https://www.journaldev.com/1789/java-reflection-example-tutorial) and [other resource](http://tutorials.jenkov.com/java-reflection/fields.html)
+
+## Vocabulary
+
+Immutable = unmodifiable

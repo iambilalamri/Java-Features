@@ -21,4 +21,8 @@ public interface FunctionnaInterface {
 	default void modulo(double operand1, double operand2) {
 		System.out.println(operand1 % operand2);
 	}
+	
+	static void print(String str){
+		System.out.println("Printing "+str);
+	}
 }
