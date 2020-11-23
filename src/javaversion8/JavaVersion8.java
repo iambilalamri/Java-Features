@@ -21,6 +21,7 @@ public class JavaVersion8 {
 		obj1.function1();
 		System.out.println(obj1.addOperand(15, 30));
 		obj1.modulo(15, 4);
+		FunctionnaInterface.print("Static method implemented in interface in JAVA");
 		/**
 		 * Expection Lambda
 		 */
