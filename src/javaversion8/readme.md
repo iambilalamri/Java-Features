@@ -84,4 +84,4 @@ La réflexion peut être utilisée pour obtenir des informations sur :
 4. Attributs: getFields() est pour obtenir le nom des attributs publiques ou prives.
 <br/><br/>
 
-Check this link to understand [Java Reflection](https://www.journaldev.com/1789/java-reflection-example-tutorial)
+Check this link to understand [Java Reflection](https://www.journaldev.com/1789/java-reflection-example-tutorial) and [other resource](http://tutorials.jenkov.com/java-reflection/fields.html)
