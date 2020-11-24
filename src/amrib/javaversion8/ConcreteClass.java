@@ -67,7 +67,7 @@ public class ConcreteClass extends BaseClass implements BaseInterface {
 			// Spring dependency injection, Tomcat web container
 			// Eclipse auto completion of method names, hibernate, Struts2 etc.
 			// because ConcreteClass is not available at compile time
-			concreteClass = Class.forName("javaversion8.ConcreteClass");
+			concreteClass = Class.forName("amrib.javaversion8.ConcreteClass");
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}
