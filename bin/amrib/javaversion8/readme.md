@@ -1,3 +1,13 @@
+## A quoi sert Maven ?
+Maven est un outil permettant d'automatiser la gestion de projets Java.<br/>
+Il offre entre autres les fonctionalités suivantes :<br/><br/>
+
+1. Compilation et déploiement des applications Java (JAR, WAR)
+2. Gestion des librairies requises par l'application
+3. Exécution des tests unitaires
+4. Génération des documentations du projet (site web, pdf, Latex)
+5. Intégration dans différents IDE (Eclipse, JBulder)
+
 ## Hibernate
 Un outil open-source, mature, simple qui consiste à  mapper  les objets à la base de données relationnelle - décrivez quelles classes et propriétés du code mappent vers quelles tables et colonnes de la base de données -(mappage classe/table)-, puis utilisez une bibliothèque pour effectuer toutes les copies et traductions. Dans les cas généraux, ces bibliothèques sont décrites comme des   outils de mappage objet-relationnel (ORM). 
 ## JPA
