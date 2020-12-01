@@ -100,4 +100,5 @@ Check this link to understand [Java Reflection](https://www.journaldev.com/1789/
 
 ## Vocabulary
 
-Immutable = unmodifiable
+1. Apache Tomcat est un conteneur web libre de servlets et JSP
+2. Immutable = unmodifiable
